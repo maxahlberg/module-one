@@ -27,4 +27,10 @@ func main() {
 	} else {
 		fmt.Printf("Found!\n")
 	}
+	avg := 2% (2 +4 )
+	println(avg)
+	avg2 := float64(4+2)/2
+	println(avg2)
+	avg3 := float64(4+2)/2.0
+	println(avg3)
 }
