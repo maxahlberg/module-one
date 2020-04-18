@@ -17,11 +17,13 @@ func main() {
 	// Starting the loop to insert Integers
 	for i < 1 {
 		// Asking for input
-		fmt.Println("Insert a number: ")
+		fmt.Println("Insert a number or x to exit: ")
 		// Reading it
 		inputReader := bufio.NewReader(os.Stdin)
 		input, err := inputReader.ReadString('\n')
 		input = strings.TrimSuffix(input, "\n")
+		input = strings.TrimSuffix(input, "\r")
+		input = strings.TrimSuffix(input, "\r\n")
 		if err != nil {
 			fmt.Printf("error while scanning: %v \n ", err)
 		}
