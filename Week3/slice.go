@@ -3,10 +3,10 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"math"
 	"os"
 	"strconv"
 	"strings"
-	"math"
 )
 
 func main() {
