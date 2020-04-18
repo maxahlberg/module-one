@@ -12,7 +12,8 @@ import (
 func main() {
 	i := 0
 	// Creating a slice of size 3
-	var sortMe = make([]int, 3)
+	var sortMe = make([]int, 0, 3)
+	fmt.Printf("The created slice 'empty' but length 3 -> len: %v cap: %v the slice: %v \n", len(sortMe), cap(sortMe), sortMe)
 	// Starting the loop to insert Integers
 	for i < 1 {
 		// Asking for input
