@@ -1,4 +1,4 @@
-# UCIGettingStartedWithGo
+# UCIGettingStartedWithGo Module One
 The Coursera course "Getting Started With Go" from UCI
 
 
